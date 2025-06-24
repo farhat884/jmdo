@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Plus, User, BookOpen, CheckCircle, XCircle, LogOut, Eye, EyeOff } from 'lucide-react';
+import { db } from './firebase';
+import { collection, getDocs, addDoc, updateDoc, doc } from 'firebase/firestore';
 
 
 const StudentQuotaApp = () => {
