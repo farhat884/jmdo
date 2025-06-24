@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
-import { Plus, User, BookOpen, CheckCircle, XCircle, LogOut, Eye, EyeOff } from 'lucide-react';
 import React, { useState, useEffect } from 'react';
+import { Plus, User, BookOpen, CheckCircle, XCircle, LogOut, Eye, EyeOff } from 'lucide-react';
 
 
 const StudentQuotaApp = () => {
